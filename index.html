@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,300,100' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<title>Cristian's Portfolio</title>
+	</head>
+	<body class="reduced-content">
+		<div class="container">
+			<div class="row">
+				<header class="header-fixed col-md-6">
+					<a id="menu"><i class="fa fa-bars logo" aria-hidden="true"></i></a>
+				</header>
+				<div class="col-md-6 text-right text-uppercase head">
+					<h1>Jane Doette</h1>
+					<p class="job-title">Front-end Ninja</p>
+				</div>
+			</div>
+		<nav id="drawer" class="nav">
+			<ul class="nav__list">
+				<li class="nav__item"><a href="#">News</a></li>
+				<li class="nav__item"><a href="#">Events</a></li>
+				<li class="nav__item"><a href="#">Culture</a></li>
+				<li class="nav__item"><a href="#">Blog</a></li>
+			</ul>
+		</nav>
+		<main>
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<img class="img-responsive" src="http://placehold.it/1140x350" 
+					alt="placeholder">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Featured Work</h2>
+				</div>
+			</div>
+			<section id="work-objects">
+			<div class="row">
+				<div class="col-md-4 text-center text-uppercase">
+					<img src="http://placehold.it/555x300" alt="placeholder" 
+					class="img-responsive" data-toggle="modal" 
+					data-target="#project1">
+					<h3>Resume</h3>
+					<p><a href="http://github.com">My Resume</a></p>
+				</div>
+				<div class="col-md-4 text-center text-uppercase">
+					<img src="http://placehold.it/555x300" alt="placeholder" 
+					class="img-responsive" data-toggle="modal" 
+					data-target="#project2">
+					<h3>Arcade Game</h3>
+					<p><a href="http://github.com">Arcade Game</a></p>
+				</div>
+				<div class="col-md-4 text-center text-uppercase">
+					<img src="http://placehold.it/555x300" alt="placeholder" 
+					class="img-responsive" data-toggle="modal" 
+					data-target="#project3">
+					<h3>Neighborhood Map</h3>
+					<p><a href="http://github.com">Neighborhood Map</a></p>
+				</div>
+				<div class="col-md-4 text-center text-uppercase" data-toggle="modal" 
+					data-target="#project4">
+					<img src="http://placehold.it/555x300" alt="placeholder" 
+					class="img-responsive">
+					<h3>Health Tracker</h3>
+					<p><a href="http://github.com">Health Tracker</a></p>
+				</div>
+				<div class="col-md-4 text-center text-uppercase" data-toggle="modal" 
+					data-target="#project5">
+					<img src="http://placehold.it/555x300" alt="placeholder" 
+					class="img-responsive">
+					<h3>Feed Reader Testing</h3>
+					<p><a href="http://github.com">Feed Reader Testing</a></p>
+				</div>
+			</div>
+			</section>
+		</main>
+		</div>
+		<!-- Starts the content dropdown Modals for each project entry -->
+		<div class="modal fade" id="project1" tabindex="-1" role="dialog"
+		aria-labelledby="resume" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="resume">Favorite App
+							Page</h4>
+					</div>
+					<div class="modal-body">
+						<img class="img-responsive" src="http://placehold.it/555x300" alt="placeholder">
+						This was my first project in this class. I learned a lot
+						about HTML and CSS. The portfolio pages looks nice, but
+						there really isn't much info about your projects. But 
+						putting a lot of text under the images would make the 
+						page look less nice. How cool would it be if you could
+						open additional info windows on demand by clicking on the
+						image that shows some description about your project? (
+						click on an image, show what happens). This kind of 
+						element is called "modal", and I will show you how you 
+						can add it super easily to your page!
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default"
+						data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Project 2 modal entry -->
+		<div class="modal fade" id="project2" tabindex="-1" role="dialog"
+		aria-labelledby="arcade" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="arcade">Favorite App
+							Page</h4>
+					</div>
+					<div class="modal-body">
+						<img class="img-responsive" src="http://placehold.it/555x300" alt="placeholder">
+						This was my first project in this class. I learned a lot
+						about HTML and CSS. The portfolio pages looks nice, but
+						there really isn't much info about your projects. But 
+						putting a lot of text under the images would make the 
+						page look less nice. How cool would it be if you could
+						open additional info windows on demand by clicking on the
+						image that shows some description about your project? (
+						click on an image, show what happens). This kind of 
+						element is called "modal", and I will show you how you 
+						can add it super easily to your page!
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default"
+						data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Project 3 modal entry -->
+		<div class="modal fade" id="project3" tabindex="-1" role="dialog"
+		aria-labelledby="map" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="map">Favorite App
+							Page</h4>
+					</div>
+					<div class="modal-body">
+						<img class="img-responsive" src="http://placehold.it/555x300" alt="placeholder">
+						This was my first project in this class. I learned a lot
+						about HTML and CSS. The portfolio pages looks nice, but
+						there really isn't much info about your projects. But 
+						putting a lot of text under the images would make the 
+						page look less nice. How cool would it be if you could
+						open additional info windows on demand by clicking on the
+						image that shows some description about your project? (
+						click on an image, show what happens). This kind of 
+						element is called "modal", and I will show you how you 
+						can add it super easily to your page!
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default"
+						data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Project 4 modal entry -->
+		<div class="modal fade" id="project4" tabindex="-1" role="dialog"
+		aria-labelledby="health" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="health">Favorite App
+							Page</h4>
+					</div>
+					<div class="modal-body">
+						<img class="img-responsive" src="http://placehold.it/555x300" alt="placeholder">
+						This was my first project in this class. I learned a lot
+						about HTML and CSS. The portfolio pages looks nice, but
+						there really isn't much info about your projects. But 
+						putting a lot of text under the images would make the 
+						page look less nice. How cool would it be if you could
+						open additional info windows on demand by clicking on the
+						image that shows some description about your project? (
+						click on an image, show what happens). This kind of 
+						element is called "modal", and I will show you how you 
+						can add it super easily to your page!
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default"
+						data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Project 5 modal entry -->
+		<div class="modal fade" id="project5" tabindex="-1" role="dialog"
+		aria-labelledby="freader" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="freader">Favorite App
+							Page</h4>
+					</div>
+					<div class="modal-body">
+						<img class="img-responsive" src="http://placehold.it/555x300" alt="placeholder">
+						This was my first project in this class. I learned a lot
+						about HTML and CSS. The portfolio pages looks nice, but
+						there really isn't much info about your projects. But 
+						putting a lot of text under the images would make the 
+						page look less nice. How cool would it be if you could
+						open additional info windows on demand by clicking on the
+						image that shows some description about your project? (
+						click on an image, show what happens). This kind of 
+						element is called "modal", and I will show you how you 
+						can add it super easily to your page!
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default"
+						data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	<script>
+		/*
+		* Open the drawer when the menu ison is clicked.
+		*/
+		var menu = document.querySelector('#menu');
+		var main = document.querySelector('main');
+		var drawer = document.querySelector('#drawer');
+
+		menu.addEventListener('click', function(e) {
+			drawer.classList.toggle('open');
+			e.stopPropagation();
+		});
+		main.addEventListener('click', function() {
+			drawer.classList.remove('open');
+		});
+	</script>
+	</body>
+</html>
