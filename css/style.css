@@ -4,16 +4,12 @@
 
 @media (min-width: 992px) {
 	.container {
-		max-width: 950px
+		max-width: 1075px;
 	}
 }
 
-.head {
-	float: left;
-}
-
-.job-title {
-	font-size: 1.2em;
+body {
+	background-color: #F4F4F4;
 }
 
 hr {
@@ -24,7 +20,7 @@ hr {
 
 h1 {
 	font-size: 3em;
-	font-weight: 100;
+	font-weight: 300;
 	color: #7d97ad;
 }
 
@@ -37,112 +33,64 @@ h2 {
 h3 {
 	font-size: 1.5em;
 }
-@media only screen and (max-width: 750px) {
-	.nav {
-	z-index: 10;
-	background-color: #fff;
-	opacity: 1;
-	width: 100%;
-	height: 225px;
-	top: 0;
-	overflow: auto;
-	position: fixed;
-	margin: auto;
-	/* This trasform moves the drawer off canvas. */
-	-webkit-transform: translate(0, -9999px);
-	transform: translate(0, -9999px);
-	/* Optionally, we animate the drawer. */
-	transition: transform 0.5s ease;
-  }
 
-  .nav.open {
-	-webkit-transform: translate(0, 0);
-	transform: translate(0, 0);
-  }
+#modal-a,
+#modal-b,
+#modal-c,
+#modal-d,
+#modal-e {
+	display: block;
+}
 
-  .nav__item {
-	display: list-item;
-    text-align: center;
-  }
-
-  .nav__item {
+.project {
+	background-color: #DCD0C0;
+	border: 1px solid black;
 	box-sizing: border-box;
+	border-radius: 8px;
+	box-shadow: 8px 8px;
+	}
+
+.contact {
 	display: block;
-	width: 10%;
-	height: 5%;
-	text-align: left;
-	line-height: 40px;
-	text-transform: uppercase;
-	list-style: none;
-	font-size: 1.4em
-  }
-
-   #menubar {
-  font-size: 2.5em;
-  left: 92%;
-  }
-
 }
 
-@media only screen and (min-width: 751px) {
-	.nav {
-		z-index: 10;
-		background-color: #fff;
-		opacity: 1;
-		width: 100%;
-		height: 8%;
-		top: 0;
-		overflow: auto;
-		position: fixed;
-		margin: auto;
-		/* This trasform moves the drawer off canvas. */
-		-webkit-transform: translate(0, -9999px);
-		transform: translate(0, -9999px);
-		/* Optionally, we animate the drawer. */
-		transition: transform 0.5s ease;
-	}
-
-	.nav.open {
-		-webkit-transform: translate(0, 0);
-		transform: translate(0, 0);
-	}
-
-	.nav__item {
-		display: list-item;
-	/*	width: 100%;
-	*/	text-align: center;
-	}
-
-	.nav__item {
-	  box-sizing: border-box;
-	  display: inline-block;
-	  width: 10%;
-	  height: 100%;
-	  text-align: center;
-	  line-height: 24px;
-	  padding-left: 12px;
-	  padding-right: 12px;
-	  margin-left: 12px;
-	  margin-right: 12px;
-	  text-transform: uppercase;
-	  list-style: none;
-	}
+.head {
+	float: left;
+	background-color: #DCD0C0;
+	border: 1px solid black;
+	box-sizing: border-box;
+	border-radius: 5px;
+	box-shadow: 8px 8px;
 }
 
-.header-fixed {
-	position:fixed;
-	text-align: right; 
-	z-index:100000;
-	opacity: 0.5;
+.container {
+	background-color: #242424;
+	box-sizing: border-box;
+	border: 1px;
+	border-radius: 10px;
+	box-shadow: 8px 8px;
 }
 
-#menuicon {
-	background-color: #484848;
-	margin-right: 2%;
-	padding-right: 2%;
-	text-align: right;
+.modal-container{
+	background-color: #373737;
+	border: 1px solid black;
+	box-sizing: border-box;
+	border-radius: 5px;
+	box-shadow: 8px 8px;
 }
 
-#modal-a {
-	display: block;
+.modal-project {
+	background-color: #DCD0C0;
+}
+
+.modal-title {
+	color: #7d97ad;
+}
+
+.job-title {
+	font-size: 1.2em;
+}
+
+.thumbnail {
+	max-width: 95%;
 }
