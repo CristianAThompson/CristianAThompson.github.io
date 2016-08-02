@@ -11,20 +11,15 @@
 		<title>Cristian's Portfolio</title>
 	</head>
 	<body class="reduced-content">
-		<div class="container">
+		<div class="container" id="header-content">
 			<div class="row">
-				<div class="col-md-12 text-left text-uppercase head">
-					<div class="col-md-6 text-left">
-						<h1>Cristian Thompson</h1>
-						<p class="job-title">Front-End Web Developer</p>
-					</div>
-					<div class="col-md-6 text-right">
-						<a class="contact" href="mailto:Thompsonacristian@gmail.com">Send an Email</a>
-						<a class="contact" href="https://github.com/CristianAThompson">My GitHub Profile</a>
-						<a class="contact" href="https://ca.linkedin.com/in/cristian-thompson-804445109">My LinkedIn Profile</a>
-					</div>
+				<div class="col-md-12 text-center text-uppercase head">
+					<h1>Cristian Thompson</h1>
+					<p class="job-title">Front-End Web Developer</p>
 				</div>
 			</div>
+		</div>
+		<div class="container" id="body-content">
 			<div class="row">
 				<div class="col-md-12">
 					<hr>
@@ -33,9 +28,10 @@
 			<div id="bigProject" class="row">
 				<div class="col-md-12 text-center project">
 					<img src="images/udacimaplong.jpg" alt="placeholder"
-					class="img-responsive" data-toggle="modal"
-					data-target="#bigproject">
-					<h2>Udacity Map</h2>
+					class="img-responsive">
+					<h2>Udacity Map Project</h2>
+					<a data-toggle="modal"
+					data-target="#bigproject">Click Here For More Information</a>
 				</div>
 			</div>
 			<div id="featured" class="row">
@@ -45,23 +41,35 @@
 			</div>
 			<section id="work-objects">
 			<div id=smallProjects class="row">
-				<div class="col-md-4 text-center project">
-					<img src="images/resume.jpg" alt="Resume Image"
-					class="img-responsive thumbnail" data-toggle="modal"
-					data-target="#project1">
-					<h3>Resume</h3>
+				<div class="col-md-12">
+					<div class="col-md-4 text-center project">
+						<img src="images/resume.jpg" alt="Resume Image"
+						class="img-responsive thumbnail">
+						<h3>Resume</h3>
+						<a data-toggle="modal"
+						data-target="#project1">Click Here For More Information</a>
+					</div>
+					<div class="col-md-4 text-center project">
+						<img src="images/arcadegame.jpg" alt="Arcade Game"
+						class="img-responsive thumbnail">
+						<h3>Arcade Game</h3>
+						<a data-toggle="modal"
+						data-target="#project2">Click Here For More Information</a>
+					</div>
+					<div class="col-md-4 text-center project">
+						<img src="images/catclickerko.jpg" alt="Cat Clicker Web App"
+						class="img-responsive thumbnail">
+						<h3>Cat Clicker</h3>
+						<a data-toggle="modal"
+						data-target="#project3">Click Here For More Information</a>
+					</div>
 				</div>
-				<div class="col-md-4 text-center project">
-					<img src="images/arcadegame.jpg" alt="Arcade Game"
-					class="img-responsive thumbnail" data-toggle="modal"
-					data-target="#project2">
-					<h3>Arcade Game</h3>
-				</div>
-				<div class="col-md-4 text-center project">
-					<img src="images/catclickerko.jpg" alt="Cat Clicker Web App"
-					class="img-responsive thumbnail" data-toggle="modal"
-					data-target="#project3">
-					<h3>Cat Clicker</h3>
+				<div class="col-md-12 text-right">
+					<br>
+					<br>
+					<a class="contact" href="mailto:Thompsonacristian@gmail.com">Send an Email</a>
+					<a class="contact" href="https://github.com/CristianAThompson">My GitHub Profile</a>
+					<a class="contact" href="https://ca.linkedin.com/in/cristian-thompson-804445109">My LinkedIn Profile</a>
 				</div>
 			</div>
 			</section>
@@ -161,11 +169,13 @@
 					</div>
 					<div class="modal-body modal-project">
 						<img class="img-responsive" src="images/udacimap.jpg" alt="placeholder">
-						Working through coursework built by Google Engineers, following their
-						instruction I built a very basic map based in New York with
-						some fictious locations and defined the	JS API call to Google Maps
-						and defined several marker locations with	integrated Google Street
-						View thumbnails of each location.
+						Given a rubric to follow I had to develop a single page web app
+						that would use the Google Maps Javascript API, along with one other
+						of my own choosing, in this case Wikipedia. I decided to plot the
+						battles of Alexander the Great in his conquests moving east.
+						The content in the window is generated from Wikipedia dynamically
+						through an AJAX call on click via the marker or the list item. Design
+						and concept were left entirely up to us.
 						<p><a id="modal-e" class="text-center" href="https://cristianathompson.github.io/UdaciMap/">Udacity Map</a></p>
 					</div>
 					<div class="modal-footer">
