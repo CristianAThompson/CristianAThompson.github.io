@@ -13,8 +13,24 @@
 	}
 }
 
+@media (max-width: 483px) {
+
+	#body-content {
+		padding-top: 165px;
+	}
+
+}
+
+@media (min-width: 484px) {
+
+	#body-content {
+		padding-top: 125px;
+	}
+
+}
+
 body {
-	background-color: #F4F4F4;
+	background-color: #DCDCDC;
 }
 
 hr {
@@ -49,6 +65,16 @@ h3 {
 
 #header-content {
 	width: 100%;
+	position: fixed;
+	margin-top: 0px;
+	z-index: 100;
+}
+
+#body-content {
+	border: 1px solid black;
+	box-sizing: border-box;
+	border-radius: 10px;
+	box-shadow: 2px 2px;
 }
 
 .project {
@@ -66,7 +92,6 @@ h3 {
 }
 
 .head {
-	float: left;
 	width: 100%;
 	background-color: #DCD0C0;
 	border: 1px solid black;
