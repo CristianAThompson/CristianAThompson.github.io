@@ -55,6 +55,15 @@ h3 {
 	font-size: 1.5em;
 }
 
+button {
+        color: #7d97ad;
+	background-color: #DCD0C0;
+	border: 1px solid black;
+	box-sizing: border-box;
+	border-radius: 8px;
+	box-shadow: 1px 1px;
+}
+
 #modal-a,
 #modal-b,
 #modal-c,
